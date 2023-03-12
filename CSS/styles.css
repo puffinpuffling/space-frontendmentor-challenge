@@ -1,0 +1,90 @@
+h1 {
+    font-size: 150px;
+    font-family: 'Bellefair', serif;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h2 {
+    font-size: 100px;
+    font-family: 'Bellefair', serif;
+}
+
+h3 {
+    font-size: 56px;
+    font-family: 'Bellefair', serif;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+}
+
+h5 {
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75;
+    text-transform: uppercase;
+}
+
+body {
+    background-image: url("../assets/home/background-home-desktop.jpg");
+    background-size: 100%;
+    color: white;
+    margin: 50px 25% 15% 5%
+}
+
+.darkcolor {
+    color: #0d0d17;
+}
+
+.medcolor {
+    color: #d0d6f9;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(0,0,0);
+    background: linear-gradient(-90deg, rgba(13,13,23,0.7) 25%, rgba(255,255,255,0%) 75%);
+    border-radius: 25px;
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: flex-start;
+}
+
+.navlinks {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.navlinks p {
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.mainbody {
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+    padding: 0 50px;
+}
+
+.mainbody p {
+    margin: 0 50% 0 0;
+    line-height: 2;
+}
+
+.flexitem {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0 35px;
+}
+
