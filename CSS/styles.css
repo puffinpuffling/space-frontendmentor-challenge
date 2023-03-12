@@ -30,13 +30,24 @@ h5 {
     margin: 0;
 }
 
-body {
+p {
+   font-family: 'Barlow Condensed', sans-serif;
+   font-size: 22px;
+}
+
+.bodyhome {
     background-image: url("../assets/home/background-home-desktop.jpg");
     background-size: 100%;
     color: white;
     margin: 50px 25% 15% 5%
 }
 
+.bodydest {
+    background-image: url("../assets/destination/background-destination-desktop.jpg");
+    background-size: 100%;
+    color: white;
+    margin: 50px 25% 15% 5%
+}
 
 /* ---------------CLASSES-------------- */
 
@@ -83,6 +94,14 @@ body {
 .navlinks a:hover {
     text-decoration: underline;
     text-underline-offset: 20px;
+    text-decoration-color: #7c7c94;
+}
+
+.navlinks a:active {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: #ffffff;
+    font-weight: bold;
 }
 
 
@@ -92,19 +111,28 @@ body {
     top: 200px;
     display: flex;
     justify-content: space-between;
-    margin: 0 15%;
-    padding: 0 50px;
+    padding: 0 150px;
+    max-width: 85%;
+    margin: 0 5%;
 }
 
 .mainbody p {
-    margin: 0 50% 0 0;
     line-height: 2;
 }
 
 .flexitem {
     display: inline-flex;
     flex-direction: column;
-    padding: 0 35px;
+    padding: 0 100px;
+    width: 85%;
+}
+
+.flexheader {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    top: -120px;
 }
 
 .explorebtn {
@@ -126,6 +154,69 @@ body {
     color: black;
 }
 
-.flexitem a:hover {
+.flexitembtn a:hover {
     box-shadow: 0 0 120px 55px #252730;
+}
+
+.ullink > li {
+    display: inline-block;
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75;
+    text-transform: uppercase;
+    padding: 0 15px;
+}
+
+.ullink a {
+    padding: 0 5px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #d0d6f9;
+    text-decoration: none;
+}
+
+.ullink a:hover {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: #7c7c94;
+    color: #ffffff;
+}
+
+hr {
+    color: grey;
+    border: 1px solid;
+    margin: 0;
+}
+
+.ulfact-text > li {
+    margin: 0;
+    line-height: 0;
+}
+
+.ulfact-text {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.ulfact-text h4 {
+    font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.ulfact-text p {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #d0d6f9;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.next-too {
+    display: inline-flex;
+    flex-direction: row;
+    margin: auto;
+    width: 100%;
 }

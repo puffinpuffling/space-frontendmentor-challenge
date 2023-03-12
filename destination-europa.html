@@ -5,34 +5,56 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Roboto+Slab&display=swap" rel="stylesheet">
+  
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Europa
-
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-  ice skating, curling, hockey, or simple relaxation in your snug 
-  wintery cabin.
-
-  Avg. distance
-  628 mil. km
-
-  Est. travel time
-  3 years
+<body class="bodydest">
+  <div class="navbar">
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="navlinks">
+          <a href="index.html">00 Home</a>
+          <a href="destination-moon.html">01 Destination</a>
+          <a href="">02 Crew</a>
+          <a href="">03 Technology</a>
+    </div>
+  </div>
+    
+  <div class="mainbody">
+    <h4 class="flexheader">01 Pick your destination</h4>
+    <div class="flexitem">
+      <img src="assets/destination/image-europa.png" alt="">
+    </div>
+    <div class="flexitem">
+      <ul class="ullink">
+        <li><a href="destination-moon.html">Moon</a></li>
+        <li><a href="destination-mars.html">Mars</a></li>
+        <li><a href="destination-europa.html">Europa</a></li>
+        <li><a href="destination-titan.html">Titan</a></li>
+      </ul>
+      <h1>Europa</h1>
+      <p class="medcolor">The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+        winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+        ice skating, curling, hockey, or simple relaxation in your snug 
+        wintery cabin.</p>
+      <hr>
+      <div class="next-too">
+        <ul class="ulfact-text">
+          <li><p>Avg. distance</p></li>
+          <li><h4>628 mil. km</h4></li>
+        </ul>
+        <ul class="ulfact-text">
+          <li><p>Est travel time</p></li>
+          <li><h4>3 years</h4></li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
