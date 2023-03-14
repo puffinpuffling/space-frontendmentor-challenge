@@ -49,6 +49,20 @@ p {
     margin: 50px 25% 15% 5%
 }
 
+.bodycrew {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-size: 100%;
+    color: white;
+    margin: 50px 25% 15% 5%
+}
+
+.bodytech {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-size: 100%;
+    color: white;
+    margin: 50px 25% 15% 5%
+}
+
 /* ---------------CLASSES-------------- */
 
 /* COLOURS */
@@ -104,6 +118,13 @@ p {
     font-weight: bold;
 }
 
+.navlinksactive {
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    text-decoration-color: #ffffff;
+    font-weight: bold;
+}
+
 
 /* MAIN BODY */
 .mainbody {
@@ -125,6 +146,25 @@ p {
     flex-direction: column;
     padding: 0 100px;
     width: 85%;
+}
+
+.flexitemcrew {
+    display: inline-flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.flexitemtech {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+}
+
+.crewpic {
+    position: relative;
+    left: 200px;
+    top: 100px;
 }
 
 .flexheader {
@@ -182,6 +222,10 @@ p {
     color: #ffffff;
 }
 
+.activelink a {
+    color: #ffffff!important;
+}
+
 hr {
     color: grey;
     border: 1px solid;
@@ -219,4 +263,63 @@ hr {
     flex-direction: row;
     margin: auto;
     width: 100%;
+}
+
+.navbtn {
+    background-color: #7c7c94;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    height: 15px;
+    width: 7.5px;
+    margin: auto;
+}
+
+.navbtn:hover {
+    background-color: #d0d6f9;
+}
+
+.navbtnact {
+    background-color: #ffffff;
+    color: #0d0d17;
+}
+
+.crewh4 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 40px;
+    padding: 0 0 70px 0;
+    margin: 0;
+}
+
+.crewh5 {
+    text-transform: uppercase;
+    color: #7c7c94;
+    font-size: 30px;
+    padding: 50px 0 0 0;
+}
+
+span {
+    color: #7c7c94;
+    padding-right: 25px;
+}
+
+
+.techbtn {
+    background-color: transparent;
+    border: #ffffff solid 2px;
+    display: inline-block;
+    padding: 15px;
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    font-size: 30px;
+}
+
+.techbtnact {
+    background-color: #ffffff;
+    color: #0d0d17;
 }

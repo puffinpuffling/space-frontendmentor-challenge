@@ -5,28 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="CSS/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Roboto+Slab&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  03 Space launch 101
-
-  1
-  2
-  3
-
-  The terminology...
-  Space capsule
-
-  A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
-  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
-  you'll spend your time during the flight. It includes a space gym, cinema, 
-  and plenty of other activities to keep you entertained.
+<body class="bodytech">
+  <div class="navbar">
+    <div class="logo">
+      <img src="assets/shared/logo.svg" alt="logo">
+    </div>
+    <div class="navlinks">
+      <a href="index.html">00 Home</a>
+      <a href="destination-moon.html">01 Destination</a>
+      <a href="crew-commander.html">02 Crew</a>
+      <a class="navlinksactive" href="technology-vehicle.html">03 Technology</a>
+    </div>
+  </div>
+   
+  <div class="mainbody">
+    <h4 class="flexheader"><span> 03 </span>Space launch 101</h4>
+    <ul class="ullink flexitemtech">
+      <li><button class="techbtn"><a href="technology-vehicle.html">1</a></button></li>
+      <li><button class="techbtn techbtnact"><a style="color: black;" href="technology-capsule.html">2</a></button></li>
+      <li><button class="techbtn"><a href="technology-spaceport.html">3</a></button></li>
+    </ul>
+    <div class="flexitemtech">
+      <h5 class="crewh5">The terminology...</h2>
+      <h4 class="crewh4">Space capsule</h4>
+      <p class="medcolor">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+        you'll spend your time during the flight. It includes a space gym, cinema, 
+        and plenty of other activities to keep you entertained.</p>
+    </div>
+    <div class="flexitemtech">
+      <img src="assets/technology/image-space-capsule-portrait.jpg" alt="">
+    </div>
+  </div>
 </body>
 </html>
