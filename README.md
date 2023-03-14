@@ -1,4 +1,4 @@
-# space-frontendmentor-challenge
+# Space Tourism Frontendmentor Challenge
 
 This is my attempt at the Space Tourism webpage challenge. I did not go ahead and add JS because I at the time this was made haven't gotten that far yet. This is my 2nd serious go at making a webpage using modern HTML/CSS. All the pictures, text and the empty html-pages were pre-supplied, the rest I made myself. 
 
